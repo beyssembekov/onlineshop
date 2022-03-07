@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Online shopping tool</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" type="image/png" href="images/icon.png">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar container-fluid">
+<div class="nav">
+    <img src="depositphotos_460436274-stock-illustration-online-shop-logo-designs-concept.jpg" class="brand-logo" alt="">
+    <div class="nav-items">
+
+          <a onclick="play()" ><img src = "images/musical-note.png"></a>
+          <audio id="audio" src="music1.mp3"></audio>
+
+
+
+        <div class="search">
+            <input type="text" class="search-box" placeholder="search brand, product">
+            <button class="search-btn">search</button>
+          </div>
+                      <a href="#" onclick="soundClick()"><img src="images/3081822.png" alt=""></a>
+
+            </div>
+</div>
+</nav>
+
+
+<ul class="lcontainer">
+    <li class="item1"><button href="" class="button1">Home</button></li>
+    <li class="item2"><button href="" class="button2">Women</button></li>
+    <li class="item3"><button href="" class="button3">Men</button></li>
+
+</ul>
+<section class="product container-fluid">
+    <h2 id="brandss" class="product-category">best selling</h2>
+    <div class="product-container">
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag span"><strong>50% off</strong></span>
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="images/2.png" class="product-thumb" alt="">
+            <button class="card-btn">Add to whislist</button>
+        </div>
+        <div class="product-info">
+            <h2 id="brand" class="product-brand">Brand</h2>
+            <p class="product-short-des"><em>Best cloth</em> you have ever seen</p>
+            <span class="price">12990tg</span><span class="actual-price">20990tg</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag"><strong>50% off</strong></span>
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="images/3.png" class="product-thumb" alt="">
+            <button class="card-btn">Add to whislist</button>
+        </div>
+        <div class="product-info">
+            <h2 id="brand" class="product-brand">Brand</h2>
+            <p class="product-short-des"><em>Best cloth</em> you have ever seenn</p>
+            <span class="price">12990tg</span><span class="actual-price">20990tg</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag"><strong>50% off</strong></span>
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="images/4.png" class="product-thumb" alt="">
+            <button class="card-btn">Add to whislist</button>
+        </div>
+        <div class="product-info">
+            <h2 id="brand" class="product-brand">Brand</h2>
+            <p class="product-short-des"><em>Best cloth</em> you have ever seenn</p>
+            <span class="price">12990tg</span><span class="actual-price">20990tg</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag"><strong>50% off</strong></span>
+            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="images/png-transparent-jacket-iconic-designer-menswear-coat-shop-clothing-jacket-zipper-retail-sleeve.png" class="product-thumb" alt="">
+            <button class="card-btn">Add to whislist</button>
+        </div>
+        <div class="product-info">
+            <h2 id="brand" class="product-brand">Brand</h2>
+            <p class="product-short-des"><em>Best cloth</em> you have ever seen</p>
+            <span class="price">12990tg</span><span class="actual-price">20990tg</span>
+        </div>
+    </div></div>
+</section>
+
+<section class="footer">
+
+    <div class="containers">
+
+        <div class="d-flex flex-wrap justify-content-center text-center text-sm-start">
+
+            <div  class="box p-4 m-2">
+                <h3>Founders:</h3>
+                <h4 href="#">Batyrkhan Beysembekov</h4>
+                <h4 href="#">Beknur Zholdas</h4>
+                <h4 href="#">Alimzhan Abdazim</h4>
+
+                </div>
+
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
